@@ -1,0 +1,274 @@
+{
+  "CPUInfo": {
+    "Architecture": "x86_64",
+    "CPUOpModes": "",
+    "ByteOrder": "Order: Little Endian",
+    "CPUs": 2,
+    "ThreadsPerCore": 0,
+    "CoresPerSocket": 0,
+    "Sockets": 2,
+    "NUMANodes": 0,
+    "VendorID": "",
+    "CPUFamily": 0,
+    "Model": 63,
+    "ModelName": "",
+    "CPUMHz": 0,
+    "BogoMIPS": 5199.99,
+    "HypervisorVendor": "",
+    "VirtualizationType": "",
+    "L1DCache": "",
+    "L1ICache": "",
+    "L2Cache": "",
+    "L3Cache": "",
+    "NUMANode0CPUs": "",
+    "Flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts nopl xtopology tsc_reliable nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm epb invpcid_single rsb_ctxsw fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid xsaveopt dtherm ida arat pln pts"
+  },
+  "ProcessInfo": [
+    {
+      "PID": 27882,
+      "User": "mongod",
+      "PR": 20,
+      "NI": 0,
+      "VIRT": 1634480,
+      "RES": 79240,
+      "SHR": 8492,
+      "S": "S",
+      "%CPU": 0.7,
+      "%MEM": 1,
+      "TIME+": "588:57.01",
+      "COMMAND": "mongod"
+    },
+    {
+      "PID": 9,
+      "User": "root",
+      "PR": 20,
+      "NI": 0,
+      "VIRT": 0,
+      "RES": 0,
+      "SHR": 0,
+      "S": "S",
+      "%CPU": 0.3,
+      "%MEM": 0,
+      "TIME+": "1548:14",
+      "COMMAND": "rcu_sched"
+    },
+    {
+      "PID": 640,
+      "User": "root",
+      "PR": 20,
+      "NI": 0,
+      "VIRT": 0,
+      "RES": 0,
+      "SHR": 0,
+      "S": "S",
+      "%CPU": 0.3,
+      "%MEM": 0,
+      "TIME+": "191:31.77",
+      "COMMAND": "xfsaild/dm-2"
+    },
+    {
+      "PID": 824,
+      "User": "root",
+      "PR": 20,
+      "NI": 0,
+      "VIRT": 478984,
+      "RES": 5368,
+      "SHR": 2060,
+      "S": "S",
+      "%CPU": 0.3,
+      "%MEM": 0.1,
+      "TIME+": "923:16.30",
+      "COMMAND": "NetworkManager"
+    },
+    {
+      "PID": 45063,
+      "User": "root",
+      "PR": 20,
+      "NI": 0,
+      "VIRT": 845248,
+      "RES": 65596,
+      "SHR": 31200,
+      "S": "S",
+      "%CPU": 0.3,
+      "%MEM": 0.8,
+      "TIME+": "2074:42",
+      "COMMAND": "consul"
+    },
+    {
+      "PID": 106021,
+      "User": "burmani",
+      "PR": 20,
+      "NI": 0,
+      "VIRT": 113424,
+      "RES": 1704,
+      "SHR": 1356,
+      "S": "S",
+      "%CPU": 0.3,
+      "%MEM": 0,
+      "TIME+": "0:02.10",
+      "COMMAND": "bash"
+    },
+    {
+      "PID": 1,
+      "User": "root",
+      "PR": 20,
+      "NI": 0,
+      "VIRT": 191576,
+      "RES": 3836,
+      "SHR": 2016,
+      "S": "S",
+      "%CPU": 0,
+      "%MEM": 0,
+      "TIME+": "121:13.14",
+      "COMMAND": "systemd"
+    },
+    {
+      "PID": 2,
+      "User": "root",
+      "PR": 20,
+      "NI": 0,
+      "VIRT": 0,
+      "RES": 0,
+      "SHR": 0,
+      "S": "S",
+      "%CPU": 0,
+      "%MEM": 0,
+      "TIME+": "0:04.78",
+      "COMMAND": "kthreadd"
+    },
+    {
+      "PID": 6,
+      "User": "root",
+      "PR": 20,
+      "NI": 0,
+      "VIRT": 0,
+      "RES": 0,
+      "SHR": 0,
+      "S": "S",
+      "%CPU": 0,
+      "%MEM": 0,
+      "TIME+": "283:20.90",
+      "COMMAND": "ksoftirqd/0"
+    },
+    {
+      "PID": 8,
+      "User": "root",
+      "PR": 20,
+      "NI": 0,
+      "VIRT": 0,
+      "RES": 0,
+      "SHR": 0,
+      "S": "S",
+      "%CPU": 0,
+      "%MEM": 0,
+      "TIME+": "0:00.00",
+      "COMMAND": "rcu_bh"
+    }
+  ],
+  "DiskInfo": [
+    {
+      "Filesystem": "devtmpfs",
+      "Size": "3.8G",
+      "Used": "0",
+      "Avail": "3.8G",
+      "UsePercent": "0%",
+      "MountedOn": "/dev"
+    },
+    {
+      "Filesystem": "tmpfs",
+      "Size": "3.9G",
+      "Used": "0",
+      "Avail": "3.9G",
+      "UsePercent": "0%",
+      "MountedOn": "/dev/shm"
+    },
+    {
+      "Filesystem": "tmpfs",
+      "Size": "3.9G",
+      "Used": "302M",
+      "Avail": "3.6G",
+      "UsePercent": "8%",
+      "MountedOn": "/run"
+    },
+    {
+      "Filesystem": "tmpfs",
+      "Size": "3.9G",
+      "Used": "0",
+      "Avail": "3.9G",
+      "UsePercent": "0%",
+      "MountedOn": "/sys/fs/cgroup"
+    },
+    {
+      "Filesystem": "/dev/mapper/centos-root",
+      "Size": "80G",
+      "Used": "33G",
+      "Avail": "48G",
+      "UsePercent": "41%",
+      "MountedOn": "/"
+    },
+    {
+      "Filesystem": "/dev/sda1",
+      "Size": "1014M",
+      "Used": "356M",
+      "Avail": "659M",
+      "UsePercent": "36%",
+      "MountedOn": "/boot"
+    },
+    {
+      "Filesystem": "/dev/mapper/centos-var",
+      "Size": "411G",
+      "Used": "262G",
+      "Avail": "150G",
+      "UsePercent": "64%",
+      "MountedOn": "/var"
+    },
+    {
+      "Filesystem": "tmpfs",
+      "Size": "781M",
+      "Used": "0",
+      "Avail": "781M",
+      "UsePercent": "0%",
+      "MountedOn": "/run/user/25072009"
+    },
+    {
+      "Filesystem": "tmpfs",
+      "Size": "781M",
+      "Used": "0",
+      "Avail": "781M",
+      "UsePercent": "0%",
+      "MountedOn": "/run/user/500"
+    },
+    {
+      "Filesystem": "lvs-nas-02.nimblestorage.com:/exports/homelvs.01",
+      "Size": "5.0T",
+      "Used": "4.7T",
+      "Avail": "370G",
+      "UsePercent": "93%",
+      "MountedOn": "/auto/homelvs.nas01"
+    },
+    {
+      "Filesystem": "lvs-isnas-05.nimblestorage.com:/exports/hq-asup-san190",
+      "Size": "32T",
+      "Used": "26T",
+      "Avail": "6.3T",
+      "UsePercent": "81%",
+      "MountedOn": "/auto/hq-asup-san190"
+    },
+    {
+      "Filesystem": "lvs-isnas-01.nimblestorage.com:/exports/support.lnk",
+      "Size": "16T",
+      "Used": "7.5T",
+      "Avail": "8.6T",
+      "UsePercent": "47%",
+      "MountedOn": "/auto/support"
+    },
+    {
+      "Filesystem": "lvs-isnas-05.nimblestorage.com:/exports/hq-asup-san243",
+      "Size": "32T",
+      "Used": "27T",
+      "Avail": "6.0T",
+      "UsePercent": "82%",
+      "MountedOn": "/auto/hq-asup-san243"
+    }
+  ]
+}
